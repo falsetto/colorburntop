@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby -w
+# require 'rubygems'
+# require 'ruby-debug'
+# require 'pathname'
+# Debugger.start
+
+
+$LOAD_PATH.unshift "/Users/Jed/Development/Libraries/colorburntop/lib"
+# debugger
+
+require 'color_burn_palette'
+require 'palette_image_generator'
+require 'desktop_changer'
+
+
+date_for_palette = ARGV[0] || Time.now.strftime("%m/%d/%Y")
+
+@palette = ColorBurnPalette.new.fetch_palette(date_for_palette)
+@image = PaletteImageGenerator.new.generate(@palette, date_for_palette)
+DesktopChanger.change(@image)

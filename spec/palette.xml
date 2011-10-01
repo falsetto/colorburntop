@@ -1,0 +1,44 @@
+<!-- http://www.firewheeldesign.com/colorburn/palette/getxml/68 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<version>1.1.1</version>
+	<paletteName>Erudite Sunshine</paletteName>
+	<color1>096cbd</color1>
+	<color2>056251</color2>
+	<color3>e5c37e</color3>
+	<color4>cc5500</color4>
+	<subtitle>by Steven Jomiel</subtitle>
+	<subtitleColor>096cbd</subtitleColor>
+	<url/>
+	<primary>1</primary>
+	<archives>
+		<archive>
+			<id>70</id>
+			<date>March 15, 2007</date>
+		</archive>
+		<archive>
+			<id>69</id>
+			<date>March 14, 2007</date>
+		</archive>
+		<archive>
+			<id>68</id>
+			<date>March 13, 2007</date>
+		</archive>
+		<archive>
+			<id>67</id>
+			<date>March 12, 2007</date>
+		</archive>
+		<archive>
+			<id>66</id>
+			<date>March 11, 2007</date>
+		</archive>
+		<archive>
+			<id>65</id>
+			<date>March 10, 2007</date>
+		</archive>
+		<archive>
+			<id>64</id>
+			<date>March  9, 2007</date>
+		</archive>
+	</archives>
+</root>
